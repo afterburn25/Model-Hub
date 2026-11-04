@@ -9,7 +9,7 @@
 | Model Hub Pro | `Model-Hub-Pro-1.0.79-Core.zip` | 719 | `b896436dea58593f7c5d635619914f9a711f3c853eb8c17077fb6db1e7ee401f` |
 | Model Hub Lite | `Model-Hub-Lite-1.1.60-Core.zip` | 2,830 | `1be33acba03b26c7532c3fd600630ae9a8d2f247937a2ce929f0a2fa1941e5a6` |
 
-The two ZIP archives passed `ZipFile.testzip`, and a source-only recovery package was created from these two lineages under `pro/` and `lite/` respectively (3,548 source files, one machine-specific vendor binding file excluded; no ZIP inside ZIP). The package's **own** SHA-256 is `dee17f96cfa71469e2ecce4842b273b6bf8cc8ec2ff497acce8f0c8b07c69fe8`.
+The two ZIP archives passed `ZipFile.testzip`, and a source-only recovery package was created from these two lineages under `pro/` and `lite/` respectively (3,548 source files, one machine-specific vendor binding file excluded; no ZIP inside ZIP). The package's **own** SHA-256 is `19b10bfb1d4ba374a78c49d4413572813e157df484028874e572d865e1fb331e`.
 
 ## Source import procedure
 
