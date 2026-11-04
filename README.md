@@ -21,3 +21,19 @@ The two ZIP archives passed `ZipFile.testzip`, and a source-only recovery packag
 The connected GitHub file-writing interface currently cannot directly stream the source ZIP's bytes into an entire Git tree, so **source import has not yet occurred**. This README is a provenance/recovery checkpoint, not the complete application.
 
 Central audit: [Code_Library recovery report](https://github.com/afterburn25/Code_Library/blob/library/starter-and-model-catalog-20261103/inventory/REPOSITORY_SOURCE_AUDIT_2026-11-03.md).
+
+## Prepared direct Git source import (text/code phase)
+
+An additional code-only source manifest was prepared and independently checked against a local Git checkout:
+
+- `pro/`: **530 text/code files**
+- `lite/`: **975 text/code files**
+- **1,505 source files total**
+- Expected complete code-only Git tree SHA: `2df21c0d8d9ca21e4e3ec518912c17cfbf6cc533`
+- Source manifest: `Model-Hub-Code-Git-Tree.jsonl` (created in recovery workspace, **not committed to GitHub**).
+- Manifest SHA-256: `2aaf7e83827705c46593ade175715efaaa3538914765b2bbb44ccf8b2a09c539`
+- Preliminary offline text-source scan: no common private-key/API-token signatures found.
+- **2,043 other files**, mostly images/artwork and binary assets, omitted from this code-only phase and retained in the complete verified release archives.
+
+The code-only tree is **not a runnable complete Model Hub distribution**: verify remaining assets and dependencies before any deployment. Do not substitute an incomplete code-only import for the original full source recovery kits. Keep both products under separate top-level directories.
+
